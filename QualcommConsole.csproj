@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <RootNamespace>WackeEdl.Qualcomm</RootNamespace>
+    <AssemblyName>QualcommConsole</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <NoWarn>CS0221</NoWarn>
+    <RuntimeIdentifier>win-x86</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+    <PublishAot>true</PublishAot>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <CodePage>65001</CodePage>
+
+    <!-- Assembly metadata -->
+    <Product>WackeEdl - Qualcomm EDL Flash Tool</Product>
+    <Company>Wildering</Company>
+    <Copyright>Copyright (C) 2025 Wildering. All rights reserved.</Copyright>
+    <Description>Qualcomm EDL Flash Tool Console Edition</Description>
+    <Version>1.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <!-- NuGet dependencies -->
+  <ItemGroup>
+    <PackageReference Include="System.IO.Ports" Version="9.0.0" />
+  </ItemGroup>
+
+  <!-- QMSL runtime DLL embedded into main EXE -->
+  <ItemGroup Condition="Exists('Lib\\QMSL_MSVC10R.dll')">
+    <EmbeddedResource Include="Lib\\QMSL_MSVC10R.dll"
+                      LogicalName="WackeEdl.Qualcomm.Native.QMSL_MSVC10R.dll" />
+  </ItemGroup>
+  <ItemGroup Condition="!Exists('Lib\\QMSL_MSVC10R.dll') and Exists('lib\\QMSL_MSVC10R.dll')">
+    <EmbeddedResource Include="lib\\QMSL_MSVC10R.dll"
+                      LogicalName="WackeEdl.Qualcomm.Native.QMSL_MSVC10R.dll" />
+  </ItemGroup>
+
+  <!-- Protocol references are docs-only; never ship with runtime output -->
+  <ItemGroup>
+    <None Update="_protocol_refs\\**\\*"
+          CopyToOutputDirectory="Never"
+          CopyToPublishDirectory="Never" />
+    <Content Update="_protocol_refs\\**\\*"
+             CopyToOutputDirectory="Never"
+             CopyToPublishDirectory="Never" />
+  </ItemGroup>
+
+  <!-- SDK-style project auto-includes source files -->
+  <ItemGroup>
+    <Compile Remove="_decompiled\**\*.cs" />
+    <Compile Remove="_recovered_from_bin_1\**\*.cs" />
+    <Compile Remove="decomp_restore_2\**\*.cs" />
+  </ItemGroup>
+
+</Project>

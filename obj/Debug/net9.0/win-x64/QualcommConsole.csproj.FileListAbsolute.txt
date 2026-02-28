@@ -1,0 +1,17 @@
+D:\G_Dragon\Code\WackClientCore依赖项目\QualcommConsole\obj\Debug\net9.0\win-x64\QualcommConsole.csproj.AssemblyReference.cache
+D:\G_Dragon\Code\WackClientCore依赖项目\QualcommConsole\obj\Debug\net9.0\win-x64\QualcommConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\G_Dragon\Code\WackClientCore依赖项目\QualcommConsole\obj\Debug\net9.0\win-x64\QualcommConsole.AssemblyInfoInputs.cache
+D:\G_Dragon\Code\WackClientCore依赖项目\QualcommConsole\obj\Debug\net9.0\win-x64\QualcommConsole.AssemblyInfo.cs
+D:\G_Dragon\Code\WackClientCore依赖项目\QualcommConsole\obj\Debug\net9.0\win-x64\QualcommConsole.csproj.CoreCompileInputs.cache
+D:\G_Dragon\Code\WackClientCore依赖项目\QualcommConsole\bin\Debug\net9.0\win-x64\QualcommConsole.exe
+D:\G_Dragon\Code\WackClientCore依赖项目\QualcommConsole\bin\Debug\net9.0\win-x64\QualcommConsole.deps.json
+D:\G_Dragon\Code\WackClientCore依赖项目\QualcommConsole\bin\Debug\net9.0\win-x64\QualcommConsole.runtimeconfig.json
+D:\G_Dragon\Code\WackClientCore依赖项目\QualcommConsole\bin\Debug\net9.0\win-x64\QualcommConsole.dll
+D:\G_Dragon\Code\WackClientCore依赖项目\QualcommConsole\bin\Debug\net9.0\win-x64\QualcommConsole.pdb
+D:\G_Dragon\Code\WackClientCore依赖项目\QualcommConsole\bin\Debug\net9.0\win-x64\System.IO.Ports.dll
+D:\G_Dragon\Code\WackClientCore依赖项目\QualcommConsole\obj\Debug\net9.0\win-x64\Qualcomm.3EC1D40E.Up2Date
+D:\G_Dragon\Code\WackClientCore依赖项目\QualcommConsole\obj\Debug\net9.0\win-x64\QualcommConsole.dll
+D:\G_Dragon\Code\WackClientCore依赖项目\QualcommConsole\obj\Debug\net9.0\win-x64\refint\QualcommConsole.dll
+D:\G_Dragon\Code\WackClientCore依赖项目\QualcommConsole\obj\Debug\net9.0\win-x64\QualcommConsole.pdb
+D:\G_Dragon\Code\WackClientCore依赖项目\QualcommConsole\obj\Debug\net9.0\win-x64\QualcommConsole.genruntimeconfig.cache
+D:\G_Dragon\Code\WackClientCore依赖项目\QualcommConsole\obj\Debug\net9.0\win-x64\ref\QualcommConsole.dll

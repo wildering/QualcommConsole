@@ -1,0 +1,8 @@
+﻿=== WackeEdl Console Log - 2026-02-27 21:18:09 ===
+OS: Microsoft Windows NT 10.0.26200.0
+
+[21:18:09.518] [QMSL][Bootstrap] loaded: D:\G_Dragon\Code\WackClientCore依赖项目\QualcommConsole\bin\Release\net9.0-windows\win-x86\publish\runtime\qmsl\EE696BE295D44077\QMSL_MSVC10R.dll
+[21:18:09.519] [QMSL][Bootstrap] loaded from embedded resource 'WackeEdl.Qualcomm.Native.QMSL_MSVC10R.dll'.
+[21:18:12.096] [ProbeMode] start port=COM8
+[21:18:13.913] [ProbeMode] open failed: COM8
+[21:18:33.422] [高通] ConnectWithLoaderDataAsync: 连接失败后已释放端口资源

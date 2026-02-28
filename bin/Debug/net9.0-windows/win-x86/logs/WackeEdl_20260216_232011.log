@@ -1,0 +1,9 @@
+﻿=== WackeEdl Console Log - 2026-02-16 23:20:11 ===
+OS: Microsoft Windows NT 10.0.26200.0
+
+[23:20:11.197] [QCN][Service][DiagConnect] start port=COM999, baud=115200
+[23:20:11.205] [QMSL] QMSL loaded: D:\G_Dragon\Code\WackClientCore依赖项目\QualcommConsole\bin\Debug\net9.0-windows\win-x86\QMSL_MSVC10R.dll
+[23:20:11.205] [QMSL] Connect start: port=COM999, com=999, baud=115200
+[23:20:11.205] [QMSL] SetLibraryMode(0) ok.
+[23:20:11.211] [QMSL] Connect failed: QLIB_IsPhoneConnected=0.
+[23:20:11.214] [QCN][Service][DiagConnect] failed

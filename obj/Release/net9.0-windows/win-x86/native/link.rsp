@@ -1,0 +1,43 @@
+﻿"obj\Release\net9.0-windows\win-x86\native\QualcommConsole.obj"
+/OUT:"bin\Release\net9.0-windows\win-x86\native\QualcommConsole.exe"
+/DEF:"obj\Release\net9.0-windows\win-x86\native\QualcommConsole.def"
+/LIBPATH:"D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\lib\x86"
+/LIBPATH:"D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\lib\x86"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\lib\um\x86"
+/LIBPATH:"D:\Windows Kits\10\lib\10.0.26100.0\ucrt\x86"
+/LIBPATH:"D:\Windows Kits\10\\lib\10.0.26100.0\\um\x86"
+"C:\Users\123\.nuget\packages\runtime.win-x86.microsoft.dotnet.ilcompiler\9.0.12\sdk\bootstrapper.obj"
+"C:\Users\123\.nuget\packages\runtime.win-x86.microsoft.dotnet.ilcompiler\9.0.12\sdk\Runtime.WorkstationGC.lib"
+"C:\Users\123\.nuget\packages\runtime.win-x86.microsoft.dotnet.ilcompiler\9.0.12\sdk\eventpipe-disabled.lib"
+"C:\Users\123\.nuget\packages\runtime.win-x86.microsoft.dotnet.ilcompiler\9.0.12\sdk\standalonegc-disabled.lib"
+"C:\Users\123\.nuget\packages\runtime.win-x86.microsoft.dotnet.ilcompiler\9.0.12\sdk\zlibstatic.lib"
+"C:\Users\123\.nuget\packages\runtime.win-x86.microsoft.dotnet.ilcompiler\9.0.12\sdk\System.Globalization.Native.Aot.lib"
+"C:\Users\123\.nuget\packages\runtime.win-x86.microsoft.dotnet.ilcompiler\9.0.12\sdk\System.IO.Compression.Native.Aot.lib"
+"advapi32.lib"
+"bcrypt.lib"
+"crypt32.lib"
+"iphlpapi.lib"
+"kernel32.lib"
+"mswsock.lib"
+"ncrypt.lib"
+"normaliz.lib"
+"ntdll.lib"
+"ole32.lib"
+"oleaut32.lib"
+"secur32.lib"
+"user32.lib"
+"version.lib"
+"ws2_32.lib"
+/NOLOGO /MANIFEST:NO
+/MERGE:.managedcode=.text /MERGE:hydrated=.bss
+/DEBUG
+/INCREMENTAL:NO
+/SUBSYSTEM:CONSOLE
+/ENTRY:wmainCRTStartup /NOEXP /NOIMPLIB /STACK:1572864
+/NATVIS:"C:\Users\123\.nuget\packages\microsoft.dotnet.ilcompiler\9.0.12\build\NativeAOT.natvis"
+/safeseh
+/IGNORE:4104
+/NODEFAULTLIB:libucrt.lib
+/DEFAULTLIB:ucrt.lib
+/OPT:REF
+/OPT:ICF

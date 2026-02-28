@@ -1,0 +1,45 @@
+{
+  "time": 105,
+  "facets": {
+    "path": {
+      "buckets": [
+        {
+          "val": "interfaces/zigbee/",
+          "count": 1
+        }
+      ]
+    },
+    "repo": {
+      "buckets": [
+        {
+          "val": "hwhw/zigbee-lua",
+          "count": 1,
+          "owner_id": "964349"
+        }
+      ]
+    },
+    "lang": {
+      "buckets": [
+        {
+          "val": "Lua",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "hits": {
+    "total": 1,
+    "hits": [
+      {
+        "owner_id": "964349",
+        "repo": "hwhw/zigbee-lua",
+        "branch": "master",
+        "path": "interfaces/zigbee/cc-znp.lua",
+        "content": {
+          "snippet": "<table class=\"highlight-table\"><tr data-line=\"130\"><td><div class=\"lineno\">130</div></td><td><div class=\"highlight\"><pre><span class=\"cm\">  {&quot;SRSP_SYS_OSAL_NV_READ_EXT&quot;, 0x6108, 0xFFFF},</span></pre></div></td></tr><tr data-line=\"131\"><td><div class=\"lineno\">131</div></td><td><div class=\"highlight\"><pre><span class=\"cm\">  {&quot;SREQ_SYS_OSAL_<mark>NV_WRITE_EXT</mark>&quot;, 0x2109, 0xFFFF},</span></pre></div></td></tr><tr data-line=\"132\"><td><div class=\"lineno\">132</div></td><td><div class=\"highlight\"><pre><span class=\"cm\">  {&quot;SRSP_SYS_OSAL_<mark>NV_WRITE_EXT</mark>&quot;, 0x6109, 0xFFFF},</span></pre><div class=\"jump\"></div></div></td></tr><tr data-line=\"986\"><td><div class=\"lineno\">986</div></td><td><div class=\"highlight\"><pre><span class=\"cm\">msg{&quot;SREQ_SYS_OSAL_<mark>NV_WRITE_EXT</mark>&quot;,</span></pre></div></td></tr><tr data-line=\"987\"><td><div class=\"lineno\">987</div></td><td><div class=\"highlight\"><pre><span class=\"cm\">  U16 {&quot;Id&quot;},</span></pre></div></td></tr><tr data-line=\"988\"><td><div class=\"lineno\">988</div></td><td><div class=\"highlight\"><pre><span class=\"cm\">  U16 {&quot;Offset&quot;, default=0},</span></pre></div></td></tr><tr data-line=\"989\"><td><div class=\"lineno\">989</div></td><td><div class=\"highlight\"><pre><span class=\"cm\">  arr {&quot;Value&quot;, type=t_U8, counter=t_U8}</span></pre></div></td></tr><tr data-line=\"990\"><td><div class=\"lineno\">990</div></td><td><div class=\"highlight\"><pre><span class=\"cm\">}</span></pre></div></td></tr><tr data-line=\"991\"><td><div class=\"lineno\">991</div></td><td><div class=\"highlight\"><pre><span class=\"cm\">msg{&quot;SRSP_SYS_OSAL_<mark>NV_WRITE_EXT</mark>&quot;,</span></pre></div></td></tr></table>"
+        },
+        "total_matches": "4"
+      }
+    ]
+  }
+}

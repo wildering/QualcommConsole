@@ -1,0 +1,87 @@
+{
+  "time": 121,
+  "facets": {
+    "path": {
+      "buckets": [
+        {
+          "val": "interfaces/zigbee/",
+          "count": 1
+        },
+        {
+          "val": "packages/base/any/kernels/3.2-lts/configs/arm-iproc-all/patches/",
+          "count": 1
+        },
+        {
+          "val": "patches/kernel/3.2.69/",
+          "count": 1
+        }
+      ]
+    },
+    "repo": {
+      "buckets": [
+        {
+          "val": "opencomputeproject/OpenNetworkLinux",
+          "count": 1,
+          "owner_id": "16659405"
+        },
+        {
+          "val": "opencomputeproject/onie",
+          "count": 1,
+          "owner_id": "16659405"
+        },
+        {
+          "val": "hwhw/zigbee-lua",
+          "count": 1,
+          "owner_id": "964349"
+        }
+      ]
+    },
+    "lang": {
+      "buckets": [
+        {
+          "val": "Diff",
+          "count": 2
+        },
+        {
+          "val": "Lua",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "hits": {
+    "total": 3,
+    "hits": [
+      {
+        "owner_id": "964349",
+        "repo": "hwhw/zigbee-lua",
+        "branch": "master",
+        "path": "interfaces/zigbee/cc-znp.lua",
+        "content": {
+          "snippet": "<table class=\"highlight-table\"><tr data-line=\"128\"><td><div class=\"lineno\">128</div></td><td><div class=\"highlight\"><pre>  <span class=\"cm\">--[[ conflicting with non-_EXT versions:</span></pre></div></td></tr><tr data-line=\"129\"><td><div class=\"lineno\">129</div></td><td><div class=\"highlight\"><pre><span class=\"cm\">  {&quot;SREQ_SYS_OSAL_<mark>NV_READ_EXT</mark>&quot;, 0x2108, 0xFFFF},</span></pre></div></td></tr><tr data-line=\"130\"><td><div class=\"lineno\">130</div></td><td><div class=\"highlight\"><pre><span class=\"cm\">  {&quot;SRSP_SYS_OSAL_<mark>NV_READ_EXT</mark>&quot;, 0x6108, 0xFFFF},</span></pre></div></td></tr><tr data-line=\"131\"><td><div class=\"lineno\">131</div></td><td><div class=\"highlight\"><pre><span class=\"cm\">  {&quot;SREQ_SYS_OSAL_NV_WRITE_EXT&quot;, 0x2109, 0xFFFF},</span></pre><div class=\"jump\"></div></div></td></tr><tr data-line=\"977\"><td><div class=\"lineno\">977</div></td><td><div class=\"highlight\"><pre><span class=\"cm\">msg{&quot;SREQ_SYS_OSAL_<mark>NV_READ_EXT</mark>&quot;,</span></pre></div></td></tr><tr data-line=\"978\"><td><div class=\"lineno\">978</div></td><td><div class=\"highlight\"><pre><span class=\"cm\">  U16 {&quot;Id&quot;},</span></pre></div></td></tr><tr data-line=\"979\"><td><div class=\"lineno\">979</div></td><td><div class=\"highlight\"><pre><span class=\"cm\">  U16 {&quot;Offset&quot;, default=0}</span></pre></div></td></tr><tr data-line=\"980\"><td><div class=\"lineno\">980</div></td><td><div class=\"highlight\"><pre><span class=\"cm\">}</span></pre></div></td></tr><tr data-line=\"981\"><td><div class=\"lineno\">981</div></td><td><div class=\"highlight\"><pre><span class=\"cm\">msg{&quot;SRSP_SYS_OSAL_<mark>NV_READ_EXT</mark>&quot;,</span></pre></div></td></tr></table>"
+        },
+        "total_matches": "4"
+      },
+      {
+        "owner_id": "16659405",
+        "repo": "opencomputeproject/onie",
+        "branch": "master",
+        "path": "patches/kernel/3.2.69/driver-iproc-nand.patch",
+        "content": {
+          "snippet": "<table class=\"highlight-table\"><tr data-line=\"205\"><td><div class=\"lineno\">205</div></td><td><div class=\"highlight\"><pre><span class=\"gi\">+#define NCREG_BLOCK_ERASE_ADDR         0x138 /* Block Erase Address */</span></pre></div></td></tr><tr data-line=\"206\"><td><div class=\"lineno\">206</div></td><td><div class=\"highlight\"><pre><span class=\"gi\">+#define NCREG_I<mark>NV_READ_EXT</mark>_ADDR        0x13c /* Flash Invalid Data Extended Address */</span></pre></div></td></tr><tr data-line=\"207\"><td><div class=\"lineno\">207</div></td><td><div class=\"highlight\"><pre><span class=\"gi\">+#define NCREG_INV_READ_ADDR            0x140 /* Flash Invalid Data Address */</span></pre></div></td></tr></table>"
+        },
+        "total_matches": "1"
+      },
+      {
+        "owner_id": "16659405",
+        "repo": "opencomputeproject/OpenNetworkLinux",
+        "branch": "master",
+        "path": "packages/base/any/kernels/3.2-lts/configs/arm-iproc-all/patches/drivers_bcmdrivers_nand_nand_iproc.c.patch",
+        "content": {
+          "snippet": "<table class=\"highlight-table\"><tr data-line=\"145\"><td><div class=\"lineno\">145</div></td><td><div class=\"highlight\"><pre><span class=\"gi\">+#define NCREG_BLOCK_ERASE_ADDR         0x138 /* Block Erase Address */</span></pre></div></td></tr><tr data-line=\"146\"><td><div class=\"lineno\">146</div></td><td><div class=\"highlight\"><pre><span class=\"gi\">+#define NCREG_I<mark>NV_READ_EXT</mark>_ADDR        0x13c /* Flash Invalid Data Extended Address */</span></pre></div></td></tr><tr data-line=\"147\"><td><div class=\"lineno\">147</div></td><td><div class=\"highlight\"><pre><span class=\"gi\">+#define NCREG_INV_READ_ADDR            0x140 /* Flash Invalid Data Address */</span></pre></div></td></tr></table>"
+        },
+        "total_matches": "1"
+      }
+    ]
+  }
+}

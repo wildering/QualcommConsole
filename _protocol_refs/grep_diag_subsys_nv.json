@@ -1,0 +1,116 @@
+{
+  "time": 135,
+  "facets": {
+    "path": {
+      "buckets": [
+        {
+          "val": "epan/dissectors/",
+          "count": 2
+        },
+        {
+          "val": "src/protocol/",
+          "count": 2
+        },
+        {
+          "val": "app/src/main/java/com/craxiom/networksurveyplus/messages/",
+          "count": 1
+        }
+      ]
+    },
+    "repo": {
+      "buckets": [
+        {
+          "val": "wireshark/wireshark",
+          "count": 2,
+          "owner_id": "6233056"
+        },
+        {
+          "val": "osmocom/osmo-qcdiag",
+          "count": 1,
+          "owner_id": "1415806"
+        },
+        {
+          "val": "christianrowlands/android-network-survey-rooted",
+          "count": 1,
+          "owner_id": "8020686"
+        },
+        {
+          "val": "P1sec/QCSuper",
+          "count": 1,
+          "owner_id": "856786"
+        }
+      ]
+    },
+    "lang": {
+      "buckets": [
+        {
+          "val": "C",
+          "count": 3
+        },
+        {
+          "val": "Java",
+          "count": 1
+        },
+        {
+          "val": "Python",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "hits": {
+    "total": 5,
+    "hits": [
+      {
+        "owner_id": "6233056",
+        "repo": "wireshark/wireshark",
+        "branch": "master",
+        "path": "epan/dissectors/packet-qcdiag.h",
+        "content": {
+          "snippet": "<table class=\"highlight-table\"><tr data-line=\"244\"><td><div class=\"lineno\">244</div></td><td><div class=\"highlight\"><pre><span class=\"w\">    </span><span class=\"n\">DIAG_SUBSYS_TCXOMGR</span><span class=\"w\">              </span><span class=\"o\">=</span><span class=\"w\"> </span><span class=\"mi\">47</span><span class=\"p\">,</span></pre></div></td></tr><tr data-line=\"245\"><td><div class=\"lineno\">245</div></td><td><div class=\"highlight\"><pre><span class=\"w\">    </span><span class=\"n\"><mark>DIAG_SUBSYS_NV</mark></span><span class=\"w\">                   </span><span class=\"o\">=</span><span class=\"w\"> </span><span class=\"mi\">48</span><span class=\"p\">,</span></pre></div></td></tr><tr data-line=\"246\"><td><div class=\"lineno\">246</div></td><td><div class=\"highlight\"><pre><span class=\"w\">    </span><span class=\"n\">DIAG_SUBSYS_AUTOCONFIG</span><span class=\"w\">           </span><span class=\"o\">=</span><span class=\"w\"> </span><span class=\"mi\">49</span><span class=\"p\">,</span></pre></div></td></tr></table>"
+        },
+        "total_matches": "1"
+      },
+      {
+        "owner_id": "856786",
+        "repo": "P1sec/QCSuper",
+        "branch": "master",
+        "path": "src/protocol/subsystems.py",
+        "content": {
+          "snippet": "<table class=\"highlight-table\"><tr data-line=\"61\"><td><div class=\"lineno\">61</div></td><td><div class=\"highlight\"><pre><span class=\"n\">DIAG_SUBSYS_TCXOMGR</span> <span class=\"o\">=</span> <span class=\"mi\">47</span></pre></div></td></tr><tr data-line=\"62\"><td><div class=\"lineno\">62</div></td><td><div class=\"highlight\"><pre><span class=\"n\"><mark>DIAG_SUBSYS_NV</mark></span> <span class=\"o\">=</span> <span class=\"mi\">48</span></pre></div></td></tr><tr data-line=\"63\"><td><div class=\"lineno\">63</div></td><td><div class=\"highlight\"><pre><span class=\"n\">DIAG_SUBSYS_AUTOCONFIG</span> <span class=\"o\">=</span> <span class=\"mi\">49</span></pre></div></td></tr></table>"
+        },
+        "total_matches": "1"
+      },
+      {
+        "owner_id": "6233056",
+        "repo": "wireshark/wireshark",
+        "branch": "master",
+        "path": "epan/dissectors/packet-qcdiag.c",
+        "content": {
+          "snippet": "<table class=\"highlight-table\"><tr data-line=\"328\"><td><div class=\"lineno\">328</div></td><td><div class=\"highlight\"><pre><span class=\"w\">    </span><span class=\"p\">{</span><span class=\"w\"> </span><span class=\"n\">DIAG_SUBSYS_TCXOMGR</span><span class=\"p\">,</span><span class=\"w\">              </span><span class=\"s\">&quot;TXCO Manager&quot;</span><span class=\"w\"> </span><span class=\"p\">},</span></pre></div></td></tr><tr data-line=\"329\"><td><div class=\"lineno\">329</div></td><td><div class=\"highlight\"><pre><span class=\"w\">    </span><span class=\"p\">{</span><span class=\"w\"> </span><span class=\"n\"><mark>DIAG_SUBSYS_NV</mark></span><span class=\"p\">,</span><span class=\"w\">                   </span><span class=\"s\">&quot;NV&quot;</span><span class=\"w\"> </span><span class=\"p\">},</span></pre></div></td></tr><tr data-line=\"330\"><td><div class=\"lineno\">330</div></td><td><div class=\"highlight\"><pre><span class=\"w\">    </span><span class=\"p\">{</span><span class=\"w\"> </span><span class=\"n\">DIAG_SUBSYS_PARAMS</span><span class=\"p\">,</span><span class=\"w\">               </span><span class=\"s\">&quot;Parameters&quot;</span><span class=\"w\"> </span><span class=\"p\">},</span></pre></div></td></tr></table>"
+        },
+        "total_matches": "1"
+      },
+      {
+        "owner_id": "8020686",
+        "repo": "christianrowlands/android-network-survey-rooted",
+        "branch": "develop",
+        "path": "app/src/main/java/com/craxiom/networksurveyplus/messages/DiagCommand.java",
+        "content": {
+          "snippet": "<table class=\"highlight-table\"><tr data-line=\"727\"><td><div class=\"lineno\">727</div></td><td><div class=\"highlight\"><pre><span class=\"w\">        </span><span class=\"n\">DIAG_SUBSYS_TCXOMGR</span><span class=\"p\">(</span><span class=\"mi\">47</span><span class=\"p\">),</span></pre></div></td></tr><tr data-line=\"728\"><td><div class=\"lineno\">728</div></td><td><div class=\"highlight\"><pre><span class=\"w\">        </span><span class=\"n\"><mark>DIAG_SUBSYS_NV</mark></span><span class=\"p\">(</span><span class=\"mi\">48</span><span class=\"p\">),</span><span class=\"w\">    </span><span class=\"cm\">/* Non Volatile Memory */</span></pre></div></td></tr><tr data-line=\"729\"><td><div class=\"lineno\">729</div></td><td><div class=\"highlight\"><pre><span class=\"w\">        </span><span class=\"n\">DIAG_SUBSYS_AUTOCONFIG</span><span class=\"p\">(</span><span class=\"mi\">49</span><span class=\"p\">),</span></pre></div></td></tr></table>"
+        },
+        "total_matches": "1"
+      },
+      {
+        "owner_id": "1415806",
+        "repo": "osmocom/osmo-qcdiag",
+        "branch": "master",
+        "path": "src/protocol/diagcmd.h",
+        "content": {
+          "snippet": "<table class=\"highlight-table\"><tr data-line=\"484\"><td><div class=\"lineno\">484</div></td><td><div class=\"highlight\"><pre><span class=\"w\">  </span><span class=\"n\">DIAG_SUBSYS_TCXOMGR</span><span class=\"w\">            </span><span class=\"o\">=</span><span class=\"w\"> </span><span class=\"mi\">47</span><span class=\"p\">,</span></pre></div></td></tr><tr data-line=\"485\"><td><div class=\"lineno\">485</div></td><td><div class=\"highlight\"><pre><span class=\"w\">  </span><span class=\"n\"><mark>DIAG_SUBSYS_NV</mark></span><span class=\"w\">                 </span><span class=\"o\">=</span><span class=\"w\"> </span><span class=\"mi\">48</span><span class=\"p\">,</span><span class=\"w\">      </span><span class=\"cm\">/* Non Volatile Memory */</span></pre></div></td></tr><tr data-line=\"486\"><td><div class=\"lineno\">486</div></td><td><div class=\"highlight\"><pre><span class=\"w\">  </span><span class=\"n\">DIAG_SUBSYS_AUTOCONFIG</span><span class=\"w\">         </span><span class=\"o\">=</span><span class=\"w\"> </span><span class=\"mi\">49</span><span class=\"p\">,</span></pre></div></td></tr></table>"
+        },
+        "total_matches": "1"
+      }
+    ]
+  }
+}
